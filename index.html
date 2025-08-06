@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>udaya-portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="udaya1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    </head>
+    <body>
+       <nav>
+        <div class="name">
+            <h1>UDAYAKUMAR.V</h1>
+        </div>
+        <ul class="link" id="menu-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+
+
+        <div class="bar">
+            <i class="fa-solid fa-bars" onclick="togglemenu()"></i>
+        </div>
+       </nav>
+        <div class="para">
+            <div class="para1">
+            <h1>Hi, i am</h1>
+            <h2>UDAYA KUMAR.</h2><br>
+            <p>Hi, I am web developer,graduated width a degree in BCA
+                Bachelor of Computer Application.My interests are in
+                Front End and Back End Developer,I love to create beautiful
+                and funaction products with delighful user experience.</p>
+                </div>             
+                <div class="photo">
+                <img src="about img.png" alt="img2">
+                </div> 
+                <div class="button">
+                    <button class="bn">Hire me ?</button>
+                      <a  href="/Udaya Kumar .pdf" download> <button class="bn1">Download ?</button> </a>
+                </div>    
+        </div>
+
+
+        <section class="about-container" id="about">
+            <div class="about">
+                
+                <img  src="image3.jpg" alt="img2">
+            </div>
+            <div class="about-para">
+                <h1>About</h1>
+                <h2>Hello! it's me Udayakumar</h2>
+
+                <p>Hello! I'm Udayakumar, a passionate and dedicated 
+                    Full-Stack Developer with a Bachelor's degree in 
+                    Computer Applications (BCA). I specialize in building
+                     modern, responsive web applications from front-end to 
+                     back-end. I recently completed a comprehensive full-stack
+                      development course, where I gained hands-on experience
+                       in technologies like HTML, CSS, JavaScript</p>
+                       <div class="links">
+                       <i class="fa-brands fa-facebook"></i>
+                       <i class="fa-brands fa-github"></i>
+                       <i class="fa-brands fa-linkedin"></i>
+                       <i class="fa-brands fa-google"></i>
+                       <i class="fa-brands fa-instagram"></i>
+                       </div>
+                </div>
+            </section>
+
+
+       <section class="skills-section">
+        <div class="round" id="skills">
+            <div class="skills">
+                <h1>Skills</h1>
+                <h2>front-end<h2>
+            </div>
+            <div class="round1">
+                
+           <div class="html">
+            <h1>Html</h1>
+           </div>
+           
+           <div  class="css">
+            <h1>Css</h1>
+           </div>
+           <div class="js">
+            <h1>Javascript</h1>
+           </div>
+           <div class="react">
+            <h1>react.js</h1>
+           </div>
+           </div>
+            </div>
+           
+            <div class="round2">
+                <div class="skills">
+                    
+                    <h2>Back-end<h2>
+                </div>
+                <div class="round3">
+                    
+               <div class="php">
+                <h1>Php</h1>
+               </div>
+               
+               <div  class="python">
+                <h1>Python</h1>
+               </div>
+               <div class="node">
+                <h1>Node.js</h1>
+               </div>
+               <div class="sql">
+                <h1>Sql</h1>
+               </div>
+               </div>
+                </div>
+                </section>
+
+                <section class="Project">
+                    <div class="udaya">
+                    <h1>Project</h1>
+                    </div>
+                    <div class="udaya1">
+                       <img src="project 1.jpg" alt="">
+                       <img src="project 2.jpg" alt="">
+                       <img src="project 3.jpg" alt="">
+                    </div>
+                </section>
+
+
+                <section class="condact" id="condact">
+                    <div>
+                    <h1>condact</h1>
+                    </div>
+                    <div class="condact1">
+                    <input type="text" placeholder="Name"><br>
+                    <input type="email"  placeholder="Email"><br>
+                    <input type="tel" placeholder="Number"><br>
+                    <textarea placeholder="Message" rows="5"></textarea>
+                    <input class="submit" type="submit" value="submit">
+                    </div>
+                    </section>
+                    <section class="email-container">
+                    <div class="email">
+                     <h1>vsudaya223@gmail.com</h1>
+                    </div>
+                    </section>
+           
+        <script>
+          let menulist = document.getElementById("menu-list")
+          menulist.style.height="0px";
+          function togglemenu(){
+            if( menulist.style.height=="0px")
+            {
+                menulist.style.height="250px";
+            }
+            else{
+                menulist.style.height="0px";
+            }
+          }
+        </script>
+    </body>
+</html>
